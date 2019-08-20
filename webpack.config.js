@@ -11,6 +11,7 @@ module.exports = {
     devServer: {
         contentBase: './build',
         port: 9000,
+        open: true,
     },
     optimization: {
         minimizer: [
